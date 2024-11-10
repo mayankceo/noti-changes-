@@ -36,7 +36,7 @@ const Noti = () => {
       >
         <Flex flexDirection="column" alignItems="center">
           <GoHome size={"25px"} color={"#000"} />
-          <Text fontSize={10} mt={1} color={"#000"}>Chat</Text>
+          <Text fontSize={10} mt={1} color={"#000"}>Notification</Text>
         </Flex>
       </Link>
        
