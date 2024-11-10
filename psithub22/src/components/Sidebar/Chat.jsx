@@ -14,7 +14,7 @@ const Chat = () => {
     <Tooltip hasArrow label={""} placement='right' ml={1} openDelay={500} display={{ base: "block", md: "none" }} >
       <Link 
         display={"flex"} 
-        to="/chatpage"  
+        to="/chat"  
         as={RouterLink} 
         alignItems={"center"} 
         gap={4} 
@@ -27,7 +27,7 @@ const Chat = () => {
         
       >
         <Link
-        to="/chatpage"
+        to="/chat"
         as={RouterLink}
         onClick={() => setActiveTab('chat')}
         ml={"170px"}
