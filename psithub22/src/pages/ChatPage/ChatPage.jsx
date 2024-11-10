@@ -40,7 +40,7 @@ const ChatPage = () => {
             >
               Chat
             </h1>
-            <Link to="/chat" style={{ textDecoration: 'none', color: 'black' }}>
+            <Link to="/chatpage" style={{ textDecoration: 'none', color: 'black' }}>
               <AiOutlineArrowRight size={25} fill="#333" />
             </Link>
           </div>
